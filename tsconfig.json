@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",                                  
+    "module": "CommonJS",                                
+    "lib": ["DOM","ES6","ESNext.AsyncIterable"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,  
+    "emitDecoratorMetadata": true,                       
+    "experimentalDecorators": true,    
+    "strictPropertyInitialization": false,             
+  }
+}
