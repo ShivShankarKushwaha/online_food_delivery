@@ -6,3 +6,4 @@ node_modules
 ECHO is off.
 /node_modules 
 .env 
+.vercel

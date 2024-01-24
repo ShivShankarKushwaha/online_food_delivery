@@ -9,10 +9,6 @@
     "build":"tsc -p .",
     "postinstall": "npm run build"
   },
-  "engines": {
-    "node": "18.17.1",
-    "npm":"10.2.4"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
