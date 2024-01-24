@@ -12,5 +12,6 @@ export default async(app:Application)=>
     app.use('/vendor', VendorRoute);
     app.use("/customer",CustomerRoute)
     app.use(ShoppingRouter)
+    app.get('*',(req,res)=>{res.status(400).json({message:'page not found'})})
     return app;
 }
