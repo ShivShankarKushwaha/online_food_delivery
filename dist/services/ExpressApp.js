@@ -23,6 +23,7 @@ exports.default = (app) => __awaiter(void 0, void 0, void 0, function* () {
     app.use('/vendor', routes_1.VendorRoute);
     app.use("/customer", routes_1.CustomerRoute);
     app.use(routes_1.ShoppingRouter);
+    app.get('*', (req, res) => { res.status(400).json({ message: 'page not found' }); });
     return app;
 });
 //# sourceMappingURL=ExpressApp.js.map
